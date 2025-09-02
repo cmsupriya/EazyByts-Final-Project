@@ -6,9 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons'
 import axios from 'axios';
 
-
-
-
 function Header() {
   const [active, setActive] = useState(false);
   const [showCountryDropdown, setShowCountryDropdown] = useState(false);
