@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/newsdb?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: P@55w0rd
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+  flyway:
+    enabled: true
+
+newsapi:
+  key: 8f232aaa4ed2413aa671393cc828eb6e
+  base-url: https://newsapi.org/v2
