@@ -59,6 +59,7 @@ cd spring_backend/app
 mvn clean install
 mvn spring-boot:run
 Backend runs at: http://localhost:8080
+Swagger UI: http://localhost:8080/swagger-ui.html
 
 3️⃣ Frontend Setup
 cd react-frontend
